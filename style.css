@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #F8BEB6;
+    background-color: #7C82F7;
     color: #333;
     padding: 0;
     margin: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    background: linear-gradient(45deg, #F77C94, #F77CDF);
+    background: linear-gradient(45deg, #121DF8, #7CA9F7);
     padding: 2em 5;
     text-align: center;
     color: white;
@@ -50,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #F7B57C;
+    color: #7CD0F7;
 }
 
 nav a::after {
@@ -58,7 +58,7 @@ nav a::after {
     position: absolute;
     width: 0;
     height: 2px;
-    background-color: #F7B57C;
+    background-color: #7CD0F7;
     left: 50%;
     transform: translateX(-50%);
     bottom: 0;
@@ -80,14 +80,14 @@ section#home {
 
 section#home h2 {
     font-size: 2.8em;
-    color: #F77CDF;
+    color: #7CA9F7;
     margin-bottom: 0.5em;
     font-weight: 600;
 }
 
 section#home p {
     font-size: 1.4em;
-    color: #F78A7C;
+    color: #7C98F7;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -102,7 +102,7 @@ footer {
 }
 
 footer a {
-    color: #F77C94;
+    color: #121DF8;
     text-decoration: none;
     font-weight: bold;
 }
