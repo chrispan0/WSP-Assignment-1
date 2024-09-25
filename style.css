@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8BEB6;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2 px;
+    line-height: 1.6; 
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(45deg, #F77C94, #F77CDF);
+    padding: 2em 5;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+header h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+nav {
+    margin-top: 1.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1.5em;
+    font-weight: bold;
+    position: relative;
+    padding: 0.5em 0;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #F7B57C;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #F7B57C;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    transition: width 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+section#home {
+    padding: 5em 0;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: -3em;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+section#home h2 {
+    font-size: 2.8em;
+    color: #F77CDF;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+section#home p {
+    font-size: 1.4em;
+    color: #F78A7C;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    margin-top: 4em;
+}
+
+footer a {
+    color: #F77C94;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p {
+    margin-bottom: 0.5em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2.2em;
+    }
+    
+    nav a {
+        display: block;
+        margin: 1em 0;
+    }
+
+    section#home h2 {
+        font-size: 2.3em;
+    }
+
+    section#home p {
+        font-size: 1.1em;
+        padding: 0 1em;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    nav a {
+        margin: 0 1em;
+    }
+
+    section#home h2 {
+        font-size: 2.6em;
+    }
+
+    section#home p {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1025px) {
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 0 1.5em;
+        padding-bottom: 0.2em;
+    }
+
+    section#home h2 {
+        font-size: 2.8em;
+    }
+
+    section#home p {
+        font-size: 1.4em;
+    }
+}
