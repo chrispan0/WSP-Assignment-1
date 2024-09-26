@@ -1,8 +1,8 @@
-<h1>Chris Panetta</h1>
-<h1>100908867</h1>
-<h1>Ontario Tech University</h1>
-<h1>Web and Script Programming - INFR 3210</h1>
-<h1>Ahmed Sheikh</h1>
+<h1>Chris Panetta
+100908867
+Ontario Tech University
+Web and Script Programming - INFR 3210
+<Ahmed Sheikh</h1>
 
 
 
